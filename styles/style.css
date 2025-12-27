@@ -141,3 +141,23 @@
   color: #000;
   text-decoration: none;
 }
+.staff__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.staff__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 0 0;
+  color: #ffffff;
+}
+
+.card__content {
+  /* Esta clase podría ser para agrupar el contenido de las tarjetas */
+  /* Revisa si necesitas envolver algún contenido en las tarjetas */
+}
