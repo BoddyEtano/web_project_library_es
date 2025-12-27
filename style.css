@@ -14,11 +14,6 @@ h1 {
   text-align: center;
   font-size: 15px;
 }
-.nav__link {
-  /* Aquí van los estilos para los enlaces de navegación */
-  color: #000;
-  text-decoration: none;
-}
 .header__link {
   color: #000;
   text-decoration: none;
