@@ -1,0 +1,16 @@
+h1 {
+  flex-wrap: wrap;
+  background-color: black;
+  size: 20px;
+  color: brown;
+  text-align: center;
+  padding: 50px;
+}
+.p1 {
+  flex-wrap: wrap;
+  background-color: aqua;
+  color: blue;
+  align-content: space-around;
+  text-align: center;
+  size: 15px;
+}
