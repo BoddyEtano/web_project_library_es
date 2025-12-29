@@ -7,6 +7,8 @@
   line-height: 20px;
 }
 
+/* ================= HEADER ================= */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -84,63 +86,18 @@
   margin: 0;
   color: #838383;
 }
+
+/* ================= STAFF ================= */
+
 .staff {
   background-image: url("/images/staff_picks_background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.staff__cards {
-  max-width: 760px;
-  margin: 68px auto 0;
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 40px;
-
-  list-style-type: none;
-  padding: 0;
-}
-.card {
-  width: 360px;
-  height: 420px;
-
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 8px;
-
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-
-  font-size: 16px;
-  line-height: 22px;
-}
-.card__title {
-  margin: 0;
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 28px;
-}
-
-.card__text {
-  margin-top: 20px;
-}
-
-.card__footer {
-  margin-top: auto;
-  font-size: 14px;
-  color: #555;
-}
-.header__link {
-  color: #000;
-  text-decoration: none;
-}
 .staff__title {
   text-align: center;
   font-size: 44px;
@@ -157,7 +114,179 @@
   color: #ffffff;
 }
 
-.card__content {
-  /* Esta clase podría ser para agrupar el contenido de las tarjetas */
-  /* Revisa si necesitas envolver algún contenido en las tarjetas */
+.staff__cards {
+  max-width: 760px;
+  margin: 68px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  width: 360px;
+  height: 420px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.card__text {
+  margin-top: 20px;
+}
+
+.card__footer {
+  margin-top: auto;
+  font-size: 14px;
+  color: #555;
+}
+
+/* ================= EVENTS ================= */
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+/* ---------- EVENTS COVER ---------- */
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+/* ---------- PERSON ---------- */
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+/* ---------- PERSON POSITIONS ---------- */
+
+.person_name_feynman {
+  top: 80px;
+  right: 160px;
+}
+
+.person_name_burbidge {
+  top: 120px;
+  right: 40px;
+}
+
+.person_name_cannon {
+  bottom: 60px;
+  right: 140px;
+}
+
+.person_name_mitchell {
+  bottom: 80px;
+  left: 200px;
+}
+
+.person_name_tarter {
+  top: 220px;
+  left: 120px;
 }
