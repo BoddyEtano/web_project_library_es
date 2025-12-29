@@ -267,26 +267,26 @@
 /* ---------- PERSON POSITIONS ---------- */
 
 .person_name_feynman {
-  top: 80px;
-  right: 160px;
+  top: -30px;
+  right: 319px;
 }
 
 .person_name_burbidge {
-  top: 120px;
-  right: 40px;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  bottom: 60px;
-  right: 140px;
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
-  bottom: 80px;
-  left: 200px;
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
-  top: 220px;
-  left: 120px;
+  top: 79px;
+  left: 159px;
 }
