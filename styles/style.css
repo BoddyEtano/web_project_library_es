@@ -322,12 +322,18 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px 0 0;
-  /* Agrega estilos */
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center; /* centra el grupo completo */
+  max-width: 1100px;
 }
 
 .step {
-  /* Agrega estilos */
+  flex-basis: 220px; /* ancho base de cada tarjeta */
+  border: 1px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 40px;
 }
 
 .step__title {
