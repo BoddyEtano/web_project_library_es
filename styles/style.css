@@ -92,7 +92,8 @@
   text-decoration: none;
 }
 
-/* ================= STAFF ================= */
+/* ================= MAIN ================= */
+/* ----------------- STAFF --------------- */
 
 .staff {
   background-image: url("/images/staff_picks_background.jpg");
@@ -167,7 +168,7 @@
   height: 100%;
 }
 
-/* ================= EVENTS ================= */
+/* ----------------- EVENTS ----------------- */
 
 .events {
   padding: 100px 0 120px 80px;
@@ -364,32 +365,32 @@
   line-height: 20px;
 }
 
-/* 1️⃣ contenedor de columnas */
+/* contenedor de columnas */
 .footer__columns {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-/* 2️⃣ columnas */
+/* columnas */
 .footer__column {
   display: flex;
   flex-direction: column;
 }
 
-/* 3️⃣ logo */
+/* logo */
 .footer__logo {
   width: 58px;
   height: 80px;
 }
 
-/* 4️⃣ encabezados */
+/* encabezados */
 .footer__column-heading {
   margin: 0 0 20px;
   font-weight: 700;
 }
 
-/* 5️⃣ listas */
+/* listas */
 .footer__list {
   list-style: none;
   padding: 0;
@@ -404,17 +405,17 @@
   margin-bottom: 0;
 }
 
-/* 6️⃣ columna horarios */
+/* columna horarios */
 .footer__column_content_hours {
   max-width: 280px;
 }
 
-/* 7️⃣ columna redes */
+/* columna redes */
 .footer__column_content_social {
   max-width: 200px;
 }
 
-/* 8️⃣ links redes */
+/* links redes */
 .footer__column-link {
   display: flex;
   align-items: center;
@@ -427,13 +428,13 @@
   opacity: 0.7;
 }
 
-/* 9️⃣ iconos redes */
+/* iconos redes */
 .footer__social-icon {
   width: 16px;
   height: 16px;
 }
 
-/* 🔟 copyright */
+/* copyright */
 .footer__copyright {
   margin: 40px 0 0;
   font-size: 16px;
